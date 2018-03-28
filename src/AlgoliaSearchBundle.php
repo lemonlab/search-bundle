@@ -24,6 +24,6 @@ class AlgoliaSearchBundle extends Bundle
     {
         parent::build($container);
 
-        $container->addCompilerPass(new SearchRequirementsPass());
+//        $container->addCompilerPass(new SearchRequirementsPass());
     }
 }
