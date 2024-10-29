@@ -10,11 +10,11 @@ use Doctrine\ORM\Event\PreRemoveEventArgs;
 
 class SearchIndexerSubscriber
 {
-    private array $objectsToIndex = [];
+    private array $objectsToIndex  = [];
     private array $objectsToRemove = [];
 
     public function __construct(
-        private readonly SearchService $searchService
+        private readonly SearchService $searchService,
     ) {
     }
 
